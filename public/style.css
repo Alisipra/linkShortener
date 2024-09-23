@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #3b3b98;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container h1 {
+  margin: 20px;
+  color: aqua;
+}
+.container input {
+  width: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+.container p {
+  color: yellow;
+  margin: 10px;
+  padding: 20px;
+  font-size: larger;
+  font-weight: bold;
+}
